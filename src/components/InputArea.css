@@ -6,6 +6,12 @@
     background-color: #afe9c6;
 }
 
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #01823b;
+}
+
 .feedlist{
     height: 40px;
     width: 250px;
@@ -18,4 +24,33 @@
     letter-spacing: 0.2px;
     color: #01823b;
     padding-left: 5px;
+}
+
+.feedinput {
+    height: 40px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    color: #01823b;
+    padding-left: 5px;
+}
+
+.feedbutton {
+    height: 40px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    color: #01823b;
+    padding-left: 5px;
+    margin: 1em; 
 }

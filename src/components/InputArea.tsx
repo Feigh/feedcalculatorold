@@ -5,17 +5,18 @@ class InputArea extends React.Component {
 
     render() {
       return (
-        <div>
           <div>
-            <div className="container">
+            <div className="InputArea">
+                <h4>Mat</h4>
                 <select id="feedlist" name="feedlist" className="feedlist" >
-                    <option>stuff</option>
+                    <option>Kattmat</option>
+                    <option>Hundmat</option>
                 </select>
+                <h4>Vikt (gram)</h4> 
                 <input id="feedamount" className="feedinput" />
             </div>
-            
+            <button id="feedcal" className="feedbutton">Beräkna</button>            
           </div>
-        </div>
       );
       
     }

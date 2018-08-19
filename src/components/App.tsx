@@ -1,6 +1,7 @@
 import * as React from "react";
 import "./App.css";
 import InputArea from "./InputArea";
+import ResultArea from "./ResultArea";
 
 
 class App extends React.Component {
@@ -11,6 +12,7 @@ class App extends React.Component {
           <h1 className="App-title">Mat beräknaren</h1>
         </header>
         <InputArea />
+        <ResultArea />
       </div>
     );
   }

@@ -1,0 +1,22 @@
+.ResultArea{
+    margin: 1em; 
+    padding: 1em;
+    border-radius: 20px;
+    height:30%;
+    background-color: lightblue;
+}
+
+.feedresult    
+{
+    height: 90%;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    color: #01823b;
+    padding-left: 5px;
+}
