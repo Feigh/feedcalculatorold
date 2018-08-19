@@ -14,8 +14,7 @@ class InputArea extends React.Component {
                 </select>
                 <h4>Vikt (gram)</h4> 
                 <input id="feedamount" className="feedinput" />
-            </div>
-            <button id="feedcal" className="feedbutton">Beräkna</button>            
+            </div>    
           </div>
       );
       
