@@ -45,7 +45,7 @@ class App extends React.Component<{}, any> {
           <FormGroup>
             <FormControl id="feedresult" componentClass="textarea" value={this.state.result} />
           </FormGroup>
-
+          Beräkningen ser ut som (((Vikt * 30)+70)/Kalorier)/AntalMål;
       </div>
     );
   }
